@@ -10,62 +10,62 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 #pagination {
-    position: absolute;
-    bottom: 0;
-    left:50%;
+  position: absolute;
+  bottom: 0;
+  left:50%;
 }
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a> <br><br>
-    <h4><b>FENG YU</b></h4>
-</div>
-  <div class="w3-bar-block">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">HOME</a> 
-    <a href="research.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">RESEARCH</a> 
-    <a href="teaching.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">TEACHING</a>
-    <a href="links.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">USEFUL LINKS</a>    
-    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">ABOUT</a>
-  </div>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+        <i class="fa fa-remove"></i>
+      </a> <br><br>
+      <h4><b>FENG YU</b></h4>
+    </div>
+    <div class="w3-bar-block">
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">HOME</a> 
+      <a href="research.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">RESEARCH</a> 
+      <a href="teaching.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">TEACHING</a>
+      <a href="links.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">USEFUL LINKS</a>    
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">ABOUT</a>
+    </div>
 
-</nav>
+  </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px">
 
-  <!-- Header -->
-  <header id="home">
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-  </header>
-  
-
-
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-  
-  
-<br/><br/><br/>
-<div style="width:800px">
-    <p>I am a third-year Doctoral student in the <a href="https://sciences.ucf.edu/math/">Department of Mathematics</a> at the <a href="http://www.ucf.edu"> University of Central Florida</a>.  </p>
-    <hr>
-    <br/>
-    <p> Department page is <a href="https://sciences.ucf.edu/math/person/feng-yu/">here</a>.</p>
+    <!-- Header -->
+    <header id="home">
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    </header>
     
-    <p>Email: <a href="mailto:yfeng@knights.ucf.edu">yfeng@knights.ucf.edu</a> or <a href="mailto:yfengknights@gmail.com">yfengknights@gmail.com </a><br/>
-Office: MSB 418 <br/>
-<a href="CV_v2.pdf">CV</a>
-</div>
 
-   
-   </p>
-   </div>
+
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+      
+      
+      <br/><br/><br/>
+      <div style="width:800px">
+        <p>I am a third-year Doctoral student in the <a href="https://sciences.ucf.edu/math/">Department of Mathematics</a> at the <a href="http://www.ucf.edu"> University of Central Florida</a>.  </p>
+        <hr>
+        <br/>
+        <p> Department page is <a href="https://sciences.ucf.edu/math/person/feng-yu/">here</a>.</p>
+        
+        <p>Email: <a href="mailto:yfeng@knights.ucf.edu">yfeng@knights.ucf.edu</a> or <a href="mailto:yfengknights@gmail.com">yfengknights@gmail.com </a><br/>
+          Office: MSB 418 <br/>
+          <a href="CV_v2.pdf">CV</a>
+        </div>
+
+        
+      </p>
+    </div>
 
 
     <hr>
@@ -77,19 +77,19 @@ Office: MSB 418 <br/>
   
   <!-- Footer -->
 
-<!-- End page content -->
+  <!-- End page content -->
 </div>
 
 <script>
 // Script to open and close sidebar
 function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
 }
- 
+
 function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
 }
 </script>
 
