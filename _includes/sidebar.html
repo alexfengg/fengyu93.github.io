@@ -34,8 +34,11 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="https://github.com/fengyu93" target="_blank">My Github</a>
+
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. Designed via Jekyll.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. Designed via Jekyll.Hyde.</p>
   </div>
 </div>
