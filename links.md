@@ -1,6 +1,0 @@
----
-layout: page
-title: Links
----
-
-{% include link.html %}
