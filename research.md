@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Research
 ---
 ### Journal Papers:
 1. Raj Gautam Dutta, Yaodan Hu, Yier Jin, Feng Yu, and Teng Zhang, SELvAgE: Design and Analysis of Secure Distributed Estimator for Vehicular Platooning in Adversarial Environment, accepted by Transactions on Intelligent Transportation Systems, IEEE.
