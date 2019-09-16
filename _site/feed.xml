@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-16T18:51:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Feng Yu</title><subtitle>Ph.D candidate in the Department of Mathematics at UCF.</subtitle><entry><title type="html">MAC2313 Quiz and Solution</title><link href="http://localhost:4000/MAC2313quiz" rel="alternate" type="text/html" title="MAC2313 Quiz and Solution" /><published>2019-09-15T00:00:00-04:00</published><updated>2019-09-15T00:00:00-04:00</updated><id>http://localhost:4000/mac2313quiz</id><content type="html" xml:base="http://localhost:4000/MAC2313quiz">&lt;h2 id=&quot;quiz-1&quot;&gt;Quiz 1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-16T18:59:31-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Feng Yu</title><subtitle>Ph.D candidate in the Department of Mathematics at UCF.</subtitle><entry><title type="html">MAC2313 Quiz and Solution</title><link href="http://localhost:4000/MAC2313quiz" rel="alternate" type="text/html" title="MAC2313 Quiz and Solution" /><published>2019-09-15T00:00:00-04:00</published><updated>2019-09-15T00:00:00-04:00</updated><id>http://localhost:4000/mac2313quiz</id><content type="html" xml:base="http://localhost:4000/MAC2313quiz">&lt;h2 id=&quot;quiz-1&quot;&gt;Quiz 1&lt;/h2&gt;
 
 &lt;h3 id=&quot;section-06&quot;&gt;Section 06:&lt;/h3&gt;
-&lt;p&gt;Find the angle between the given vectors &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}=\langle1,2,-2\rangle&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}=\langle4,0,-3\rangle&lt;/script&gt;. Leave your answer in the form of &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}x&lt;/script&gt;. (5 pts)&lt;/p&gt;
+&lt;p&gt;Find the angle between the given vectors \(\textbf{a}\) and \(\textbf{b}\), where \(\textbf{a}=\langle1,2,-2\rangle\) and \(\textbf{b}=\langle4,0,-3\rangle\). Leave your answer in the form of \(\theta=\cos^{-1}x\). (5 pts)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;\[\cos\theta=\frac{\textbf{a}\cdot\textbf{b}}{|\textbf{a}||\textbf{b}|}=\frac{1\cdot4+2\cdot0+(-2)\cdot(-3)}{\sqrt{1^2+2^2+(-2)^2}\sqrt{4^2+0^2+(-3)^2}}=\frac{2}{3}
 \]
-Thus, &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}(\frac{2}{3})&lt;/script&gt;.&lt;/p&gt;
+Thus, \(\theta=\cos^{-1}(\frac{2}{3})\).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at &lt;script type=&quot;math/tex&quot;&gt;(5,1,5)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(7,3,9)&lt;/script&gt;. (5 pts)&lt;/p&gt;
+&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at \((5,1,5)\) and \((7,3,9)\). (5 pts)&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;The center of sphere is the midpoint of &lt;script type=&quot;math/tex&quot;&gt;(5,1,5)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(7,3,9)&lt;/script&gt;, i.e., the center is &lt;script type=&quot;math/tex&quot;&gt;(6,2,7)&lt;/script&gt;. The radius is the distance between one of endpoints and the center, &lt;script type=&quot;math/tex&quot;&gt;r=\sqrt{(6-5)^2+(2-1)^2+(7-5)^2}=\sqrt{6}&lt;/script&gt;. Then the equation of the sphere is given by
+  &lt;p&gt;The center of sphere is the midpoint of \((5,1,5)\) and \((7,3,9)\), i.e., the center is \((6,2,7)\). The radius is the distance between one of endpoints and the center, \(r=\sqrt{(6-5)^2+(2-1)^2+(7-5)^2}=\sqrt{6}\). Then the equation of the sphere is given by
 \[
 (x-6)^2+(y-2)^2+(z-7)^2=6
 \]&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;section-12&quot;&gt;Section 12:&lt;/h3&gt;
-&lt;p&gt;Find the angle between the given vectors &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}=\langle4,4,-2\rangle&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}=\langle4,-1,2\rangle&lt;/script&gt;. Leave your answer in the form of &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}x&lt;/script&gt;. (5 pts)&lt;/p&gt;
+&lt;p&gt;Find the angle between the given vectors \(\textbf{a}\) and \(\textbf{b}\), where \(\textbf{a}=\langle4,4,-2\rangle\) and \(\textbf{b}=\langle4,-1,2\rangle\). Leave your answer in the form of \(\theta=\cos^{-1}x\). (5 pts)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;\[\cos\theta=\frac{\textbf{a}\cdot\textbf{b}}{|\textbf{a}||\textbf{b}|}=\frac{4\cdot4+4\cdot(-1)+(-2)\cdot2}{\sqrt{4^2+4^2+(-2)^2}\sqrt{4^2+(-1)^2+2^2}}=\frac{8}{30}
 \]
-Thus, &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}(\frac{4}{15})&lt;/script&gt;.&lt;/p&gt;
+Thus, \(\theta=\cos^{-1}(\frac{4}{15})\).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at &lt;script type=&quot;math/tex&quot;&gt;(2,1,4)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(4,3,10)&lt;/script&gt;. (5 pts)&lt;/p&gt;
+&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at \((2,1,4)\) and \((4,3,10)\). (5 pts)&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;The center of sphere is the midpoint of &lt;script type=&quot;math/tex&quot;&gt;(2,1,4)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(4,3,10)&lt;/script&gt;, i.e., the center is &lt;script type=&quot;math/tex&quot;&gt;(3,2,7)&lt;/script&gt;. The radius is the distance between one of endpoints and the center, &lt;script type=&quot;math/tex&quot;&gt;r=\sqrt{(3-2)^2+(2-1)^2+(7-4)^2}=\sqrt{11}&lt;/script&gt;. Then the equation of the sphere is given by
+  &lt;p&gt;The center of sphere is the midpoint of \((2,1,4)\) and \((4,3,10)\), i.e., the center is \((3,2,7)\). The radius is the distance between one of endpoints and the center, \(r=\sqrt{(3-2)^2+(2-1)^2+(7-4)^2}=\sqrt{11}\). Then the equation of the sphere is given by
 \[
 (x-3)^2+(y-2)^2+(z-7)^2=11
 \]&lt;/p&gt;
