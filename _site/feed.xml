@@ -1,138 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-09T22:32:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Feng Yu</title><subtitle>Ph.D candidate in the Department of Mathematics  at UCF.</subtitle><entry><title type="html">Mac2313</title><link href="http://localhost:4000/2019/08/24/MAC2313.html" rel="alternate" type="text/html" title="Mac2313" /><published>2019-08-24T00:00:00-04:00</published><updated>2019-08-24T00:00:00-04:00</updated><id>http://localhost:4000/2019/08/24/MAC2313</id><content type="html" xml:base="http://localhost:4000/2019/08/24/MAC2313.html">&lt;h2 id=&quot;mac-2313-calculus-with-analytic-geometry-iii&quot;&gt;MAC 2313: Calculus With Analytic Geometry III&lt;/h2&gt;
-&lt;p&gt;Time and Location:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006)&lt;/li&gt;
-  &lt;li&gt;MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-16T00:30:16-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Feng Yu</title><subtitle>Ph.D candidate in the Department of Mathematics  at UCF.</subtitle><entry><title type="html">MAC2313 Quiz and Solution</title><link href="http://localhost:4000/2019/09/15/mac2313quiz.html" rel="alternate" type="text/html" title="MAC2313 Quiz and Solution" /><published>2019-09-15T00:00:00-04:00</published><updated>2019-09-15T00:00:00-04:00</updated><id>http://localhost:4000/2019/09/15/mac2313quiz</id><content type="html" xml:base="http://localhost:4000/2019/09/15/mac2313quiz.html">&lt;h2 id=&quot;quiz-1&quot;&gt;Quiz 1&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;\assets\PDFs\MAC2313\syllabus_MAC2313.pdf&quot;&gt;Syllabus&lt;/a&gt;&lt;br /&gt;
-Instructor:  Feng Yu&lt;br /&gt;
-Office Room:  MSB 305B&lt;br /&gt;
-Office Hours:  MTWR 1:00PM-2:15PM&lt;/p&gt;
+&lt;h3 id=&quot;section-06&quot;&gt;Section 06:&lt;/h3&gt;
+&lt;p&gt;Find the angle between the given vectors &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}=\langle1,2,-2\rangle&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}=\langle4,0,-3\rangle&lt;/script&gt;. Leave your answer in the form of &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}x&lt;/script&gt;. (5 pts)&lt;/p&gt;
 
-&lt;h3 id=&quot;descriptions&quot;&gt;Descriptions&lt;/h3&gt;
-&lt;p&gt;Class Hours: 4&lt;br /&gt;
-Lab and Field Work Hours: 0&lt;br /&gt;
-Contact Hours: 4&lt;br /&gt;
-Prerequisite(s): Grade of “C” (2.0) or better in MAC 2312, or score of 5 on the Calculus BC Advanced Placement Exam, or C.I. Corequisite(s): None. Prerequisite(s) or orequisite(s): None.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;\[\cos\theta=\frac{\textbf{a}\cdot\textbf{b}}{|\textbf{a}||\textbf{b}|}=\frac{1\cdot4+2\cdot0+(-2)\cdot(-3)}{\sqrt{1^2+2^2+(-2)^2}\sqrt{4^2+0^2+(-3)^2}}=\frac{2}{3}
+\]
+Thus, &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}(\frac{2}{3})&lt;/script&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Geometry of higher dimensional Euclidean space; vectors and vector functions; partial derivatives; multiple integrals; line integrals; vector fields; Green’s Theorem and Stokes’ Theorem.&lt;/p&gt;
+&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at &lt;script type=&quot;math/tex&quot;&gt;(5,1,5)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(7,3,9)&lt;/script&gt;. (5 pts)&lt;/p&gt;
 
-&lt;p&gt;REQUIRED MATERIAL:  Calculus (Early Transcendentals) 8th Edition, by Stewart with WebAssign access.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The center of sphere is the midpoint of &lt;script type=&quot;math/tex&quot;&gt;(5,1,5)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(7,3,9)&lt;/script&gt;, i.e., the center is &lt;script type=&quot;math/tex&quot;&gt;(6,2,7)&lt;/script&gt;. The radius is the distance between one of endpoints and the center, &lt;script type=&quot;math/tex&quot;&gt;r=\sqrt{(6-5)^2+(2-1)^2+(7-5)^2}=\sqrt{6}&lt;/script&gt;. Then the equation of the sphere is given by
+\[
+(x-6)^2+(y-2)^2+(z-7)^2=6
+\]&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;tentative-schedule-and-lecture-notes&quot;&gt;Tentative Schedule and lecture notes&lt;/h3&gt;
+&lt;h3 id=&quot;section-12&quot;&gt;Section 12:&lt;/h3&gt;
+&lt;p&gt;Find the angle between the given vectors &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}=\langle4,4,-2\rangle&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{b}=\langle4,-1,2\rangle&lt;/script&gt;. Leave your answer in the form of &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}x&lt;/script&gt;. (5 pts)&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Week&lt;/th&gt;
-      &lt;th&gt;Sections&lt;/th&gt;
-      &lt;th&gt;Note&lt;/th&gt;
-      &lt;th&gt;Lecture&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 1 (8/26 – 8/29)&lt;/td&gt;
-      &lt;td&gt;12.1, 12.2, 12.3&lt;/td&gt;
-      &lt;td&gt;No classes after 2PM on Thursday, 8/29&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;\assets\PDFs\MAC2313\Note_1.pdf&quot;&gt;Note 1&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 2 (9/2 - 9/5)&lt;/td&gt;
-      &lt;td&gt;12.3, 12.4, 12.5&lt;/td&gt;
-      &lt;td&gt;No class on Monday, 9/2 Labor day&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 3 (9/9 - 9/12)&lt;/td&gt;
-      &lt;td&gt;12.6, 13.1. 13.2&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 4 (9/16 – 9/19)&lt;/td&gt;
-      &lt;td&gt;13.2, 13.3, Review&lt;/td&gt;
-      &lt;td&gt;Test 1 - Thursday, 9/19 12.1-12.6, 13.1, 13.2&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 5 (9/23 – 9/26)&lt;/td&gt;
-      &lt;td&gt;13,3, 13.4, 14.1&lt;/td&gt;
-      &lt;td&gt;13.4 optional&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 6 (9/30 – 10/3)&lt;/td&gt;
-      &lt;td&gt;14.2, 14.3, 14.4&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 7 (10/7 - 10/10)&lt;/td&gt;
-      &lt;td&gt;14.5, 14.6, 14.7&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 8 (10/14 – 10/17)&lt;/td&gt;
-      &lt;td&gt;15.1, 15.2, Review&lt;/td&gt;
-      &lt;td&gt;Test 2 - Thursday, 10/17 13.3, 13.4(opt), 14.1-14.7&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 9 (10/21 – 10/24)&lt;/td&gt;
-      &lt;td&gt;15.2, 15.3, 15.6&lt;/td&gt;
-      &lt;td&gt;Skip 15.4, 15.5&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 10 (10/28 – 10/31)&lt;/td&gt;
-      &lt;td&gt;15.7, 15.8, 16.1&lt;/td&gt;
-      &lt;td&gt;Withdrawal deadline: Friday, 11/1&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 11 (11/4 - 11/7)&lt;/td&gt;
-      &lt;td&gt;16.1, 16.2, Review&lt;/td&gt;
-      &lt;td&gt;Test 3 - Thursday, 11/7 15.1-15.3, 15.6-15.8&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 12 (11/11 – 11/14)&lt;/td&gt;
-      &lt;td&gt;16.3, 16.4, 16.5&lt;/td&gt;
-      &lt;td&gt;No class on Monday, 11/11 Veteran’s Day&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 13 (11/18 – 11/21)&lt;/td&gt;
-      &lt;td&gt;16.5, 16.6, 16.7&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 14 (11/25 – 11/28)&lt;/td&gt;
-      &lt;td&gt;Review&lt;/td&gt;
-      &lt;td&gt;Test 4 - Tuesday, 11/26 16.1-16.7&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Week 15 (12/2 – 12/5)&lt;/td&gt;
-      &lt;td&gt;16.8, 16.9, Review&lt;/td&gt;
-      &lt;td&gt;Classes end on Wednesday, 12/4&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">MAC 2313: Calculus With Analytic Geometry III Time and Location: MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006) MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-02-09T22:48:35-05:00</published><updated>2019-02-09T22:48:35-05:00</updated><id>http://localhost:4000/jekyll/update/2019/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;\[\cos\theta=\frac{\textbf{a}\cdot\textbf{b}}{|\textbf{a}||\textbf{b}|}=\frac{4\cdot4+4\cdot(-1)+(-2)\cdot2}{\sqrt{4^2+4^2+(-2)^2}\sqrt{4^2+(-1)^2+2^2}}=\frac{8}{30}
+\]
+Thus, &lt;script type=&quot;math/tex&quot;&gt;\theta=\cos^{-1}(\frac{4}{15})&lt;/script&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Find an equation for the sphere where one of its diameters has endpoints at &lt;script type=&quot;math/tex&quot;&gt;(2,1,4)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(4,3,10)&lt;/script&gt;. (5 pts)&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;blockquote&gt;
+  &lt;p&gt;The center of sphere is the midpoint of &lt;script type=&quot;math/tex&quot;&gt;(2,1,4)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(4,3,10)&lt;/script&gt;, i.e., the center is &lt;script type=&quot;math/tex&quot;&gt;(3,2,7)&lt;/script&gt;. The radius is the distance between one of endpoints and the center, &lt;script type=&quot;math/tex&quot;&gt;r=\sqrt{(3-2)^2+(2-1)^2+(7-4)^2}=\sqrt{11}&lt;/script&gt;. Then the equation of the sphere is given by
+\[
+(x-3)^2+(y-2)^2+(z-7)^2=11
+\]&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Quiz 1</summary></entry></feed>
