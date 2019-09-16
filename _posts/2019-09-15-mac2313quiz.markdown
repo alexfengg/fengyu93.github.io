@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MAC2313 Quiz and Solution"
+permalink: /MAC2313quiz
 ---
 ## Quiz 1
 
