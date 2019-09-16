@@ -17,11 +17,11 @@ title: Feng Yu
 email: yfeng@knights.ucf.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Ph.D candidate in the
-  Department of Mathematics 
+  Department of Mathematics
   at UCF.
 baseurl: "/"  # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
 github_username:  fengyu93
 
 # Build settings
@@ -31,5 +31,3 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 #  - jekyll-paginate
-
-
