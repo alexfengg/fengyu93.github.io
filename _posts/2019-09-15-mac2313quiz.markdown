@@ -33,3 +33,34 @@ Find an equation for the sphere where one of its diameters has endpoints at \\((
 \\[
 (x-3)^2+(y-2)^2+(z-7)^2=11
 \\]
+
+## Quiz 2
+
+### Section 06:
+Consider the points \\(P(0,-3, 0), Q(5, 1,-3), R(5,3,1)\\). Find the area of the triangle \\(PQR\\). (5 pts)
+
+> In \\(\mathbb{R}^3\\), the area of \\(PQR\\) is given by \\(\vert\overrightarrow{PQ}\times \overrightarrow{PQ}\vert/2 \\). The vectors are \\(\overrightarrow{PQ}=\langle 5,4,-3\rangle\\) and \\(\overrightarrow{PR}=\langle 5,6,1\rangle\\). The cross product of \\(\overrightarrow{PQ}\\) and \\(\overrightarrow{PR}\\) is
+\\[ \overrightarrow{PQ}\times\overrightarrow{PR}=22\textbf{i}-20\textbf{j}+10\textbf{k} \\]
+Thus, the area of \\(PQR\\) is \\(\frac{1}{2}
+\sqrt{22^2+20^2+10^2}=\frac{\sqrt{986}}{2}=\sqrt{246}
+\\)
+
+The plane that passes through the point \\( (1,5,1)\\) and is perpendicular to the planes \\(2x+y-2z=2\\) and \\(x+3z=4\\). (5 pts)
+
+> The two planes have normal vectors \\(\textbf{n}_1=\langle 2,1,-2\rangle,\textbf{n}_2=\langle 1,0,3\rangle\\). The normal vector of the wanted plane is orthogonal to both \\(\textbf{n}_1\\) and \\(\textbf{n}_2\\), thus we choose \\(\textbf{n}_1\times \textbf{n}_2\\) as the normal vector. Then,
+\\[\textbf{n}_1\times \textbf{n}_1=\langle 5,-8,-1\rangle \\]
+Therefore, the plane is given by
+\\[5(x-1)-8(y-5)-(z-1)=0. \\]
+
+### Section 12:
+Consider the points \\(P(0,-3, 0), Q(5, 1,-3), R(5,3,1)\\). Find the area of the triangle \\(PQR\\). (5 pts)
+
+> In \\(\mathbb{R}^3\\), the area of \\(PQR\\) is given by \\(\vert\overrightarrow{PQ}\times \overrightarrow{PQ}\vert/2 \\). The vectors are \\(\overrightarrow{PQ}=\langle 5,4,-3\rangle\\) and \\(\overrightarrow{PR}=\langle 5,6,1\rangle\\). The cross product of \\(\overrightarrow{PQ}\\) and \\(\overrightarrow{PR}\\) is
+\\[ \overrightarrow{PQ}\times\overrightarrow{PR}=22\textbf{i}-20\textbf{j}+10\textbf{k} \\]
+Thus, the area of \\(PQR\\) is \\(\frac{1}{2}
+\sqrt{22^2+20^2+10^2}=\frac{\sqrt{986}}{2}=\sqrt{246}
+\\)
+
+The plane that passes through the points \\( (0,-2,5)\\) and \\((-1,3,1)\\) and is perpendicular to the plane \\(2z=5x+4y\\).
+
+> The points \\( (0,-2,5)\\) and \\((-1,3,1)\\) are on the plane, thus the vector \\(\textbf{a}=\langle -1-0,3-(-2),1-5\rangle=\langle-1,5,-4\rangle\\) is on the plane. The normal vector the plane \\(2z=5x+4y\\) is \\(\textbf{b}=\langle 5,4,-2\rangle\\), which is parallel to the wanted plane. So we take the cross product of these two vectors as the normal vector of the wanted plane. Thus, \\(\textbf{a}\times\textbf{b}=6\textbf{i}-22\textbf{j}-29\textbf{k},\\) and the plane is given by \\(6x-22(y+2)-29(z-5)=0\\)
