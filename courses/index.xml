@@ -1,16 +1,178 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses | Academic</title>
+    <title>Courses | Feng.Yu</title>
     <link>/courses/</link>
       <atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Courses</title>
       <link>/courses/</link>
     </image>
+    
+    <item>
+      <title>MHF 3302, 2020 Spring</title>
+      <link>/courses/mhf3302_2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/courses/mhf3302_2020/</guid>
+      <description>&lt;h2 id=&#34;logic-and-proof-in-mathematics&#34;&gt;Logic And Proof In Mathematics&lt;/h2&gt;
+&lt;p&gt;Time and Location: MSB 406 on Tuesday/Thursday 1:30-2:50 PM&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;%5cassets%5cPDFs%5cMAC2313%5csyllabus_MAC2313.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor:  Feng Yu&lt;/p&gt;
+&lt;p&gt;Office Room:  MSB 305B&lt;/p&gt;
+&lt;p&gt;Office Hours:  Tuesday/Thursday 10:30-12:00 AM or by appointment&lt;/p&gt;
+&lt;h3 id=&#34;descriptions&#34;&gt;Descriptions&lt;/h3&gt;
+&lt;p&gt;Introduction to set theory, logic and various proof techniques used in mathematics along with concepts such as relations, functions and cardinality.&lt;/p&gt;
+&lt;h3 id=&#34;required-textbook&#34;&gt;Required Textbook&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mathematical Proofs: A Transition to Advanced Mathematics (4th ed.) by Chartrand, Polimeni, and Zhang, Pearson, 2018.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We will cover chapters 1-11 and some selected sections from chapters 12-15.&lt;/p&gt;
+&lt;h3 id=&#34;grading-police&#34;&gt;Grading Police&lt;/h3&gt;
+&lt;p&gt;Your assessment is based on the overall percentage earned in: homework (10%), quizzes (10%), three midterm tests (3*15%), final exam (35%). Your score on the final will replace your lowest midterm test score provided that your final exam score is higher than the lowest score of the midterm tests. This policy can only apply once and includes a grade of zero due to a missed test. &lt;em&gt;This policy does not apply for a grade of zero as a penalty of an academic integrity violation.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;grading-scale&#34;&gt;Grading Scale&lt;/h3&gt;
+&lt;p&gt;100-90 A, 89-80 B, 79-70 C, 69-60 D, 59-0 F&lt;/p&gt;
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+&lt;p&gt;Homework problems will be assigned and graded for completeness. A complete homework must detail the work done to obtained a final answer. Assignments will be announced in class and on Webcourses@UCF, and you are expected to complete by the suggested date. You &lt;strong&gt;NEED&lt;/strong&gt; submit your homework on Webcourses@UCF.&lt;/p&gt;
+&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
+&lt;p&gt;There are three quizzes, which are scheduled before the midterm weeks. They would be based on the materials including homework problems and lectures examples.&lt;/p&gt;
+&lt;h3 id=&#34;midterms&#34;&gt;Midterms&lt;/h3&gt;
+&lt;p&gt;There are three midterm exams, which are tentatively scheduled on Feb 4th, March 3rd, and April 7th. The exact dates may be adjusted based on the pace of the course. Each of midterm exam will count 15% of your grade. Any question or mistake about grading must be solved within one week. After one week, your score would not change even the test is graded incorrectly. Don&amp;rsquo;t alter a marked exam for re-grading and it would result in an alleged academic misconduct.&lt;/p&gt;
+&lt;h3 id=&#34;final-examination&#34;&gt;Final Examination&lt;/h3&gt;
+&lt;p&gt;It is comprehensive and weighs 35% of your grade. Failure to take the final exam will result in failure of the course. Your final exam score may replace your lowest score of the midterms (i.e. the lowest midterm is dropped and the final exam weighs 50%) provided that it is higher than the lowest score of the midterms. The final exam will be 1:00 PM – 3:50 PM on Tuesday, April 21, 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MAC 2313, 2019 Fall</title>
+      <link>/courses/mac2313_2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/courses/mac2313_2019/</guid>
+      <description>&lt;h2 id=&#34;calculus-with-analytic-geometry-iii&#34;&gt;Calculus With Analytic Geometry III&lt;/h2&gt;
+&lt;p&gt;Time and Location:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006)&lt;/li&gt;
+&lt;li&gt;MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href=&#34;/courses/MAC2313_2019/syllabus_MAC2313.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor:  Feng Yu&lt;/p&gt;
+&lt;p&gt;Office Room:  MSB 305B&lt;/p&gt;
+&lt;p&gt;Office Hours:  MTWR 1:00PM-2:15PM&lt;/p&gt;
+&lt;h3 id=&#34;descriptions&#34;&gt;Descriptions&lt;/h3&gt;
+&lt;p&gt;Class Hours: 4&lt;br&gt;
+Lab and Field Work Hours: 0&lt;br&gt;
+Contact Hours: 4&lt;br&gt;
+Prerequisite(s): Grade of “C” (2.0) or better in MAC 2312, or score of 5 on the Calculus BC Advanced Placement Exam, or C.I.&lt;br&gt;
+Corequisite(s): None.&lt;/p&gt;
+&lt;p&gt;Geometry of higher dimensional Euclidean space; vectors and vector functions; partial derivatives; multiple integrals; line integrals; vector fields; Green’s Theorem and Stokes’ Theorem.&lt;/p&gt;
+&lt;p&gt;REQUIRED MATERIAL:  &lt;em&gt;Calculus (Early Transcendentals) 8th Edition&lt;/em&gt;, by Stewart with WebAssign access.&lt;/p&gt;
+&lt;h3 id=&#34;tentative-schedule-and-lecture-notes&#34;&gt;Tentative Schedule and lecture notes&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Sections&lt;/th&gt;
+&lt;th&gt;Note&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;8/26-8/29&lt;/td&gt;
+&lt;td&gt;12.1, 12.2, 12.3&lt;/td&gt;
+&lt;td&gt;No classes after 2PM on 8/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;9/2-9/5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;No class caused by Hurricane Dorian&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;9/9-9/12&lt;/td&gt;
+&lt;td&gt;12.3, 12.4, 12.5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;9/16-9/19&lt;/td&gt;
+&lt;td&gt;12.6, 13.1, 13.2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;9/23-9/26&lt;/td&gt;
+&lt;td&gt;13,2, 13.3, Review&lt;/td&gt;
+&lt;td&gt;Test 1 on 9/26 (12.1-12.6, 13.1, 13.2)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;9/30-10/3&lt;/td&gt;
+&lt;td&gt;14.1, 14.3, 14.4&lt;/td&gt;
+&lt;td&gt;Section 14.2 optional or concept review&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;10/7-10/10&lt;/td&gt;
+&lt;td&gt;14.5, 14.6, 14.7&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;10/14-10/17&lt;/td&gt;
+&lt;td&gt;15.1, 15.2, Review&lt;/td&gt;
+&lt;td&gt;Test 2 on 10/17 (13.3, 14.1, 14.3-14.7)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10/21-10/24&lt;/td&gt;
+&lt;td&gt;15.2, 15.3, 15.6&lt;/td&gt;
+&lt;td&gt;Skip 15.4, 15.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;10/28-10/31&lt;/td&gt;
+&lt;td&gt;15.7, 15.8, 16.1&lt;/td&gt;
+&lt;td&gt;Withdrawal deadline: 11/1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;11/4-11/7&lt;/td&gt;
+&lt;td&gt;16.1, 16.2, Review&lt;/td&gt;
+&lt;td&gt;Test 3 on 11/7 (15.1-15.3, 15.6-15.8)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;11/11-11/14&lt;/td&gt;
+&lt;td&gt;16.3, 16.4, 16.5&lt;/td&gt;
+&lt;td&gt;No class on 11/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;11/18-11/21&lt;/td&gt;
+&lt;td&gt;16.5, 16.6, 16.7&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;11/25-11/28&lt;/td&gt;
+&lt;td&gt;Review&lt;/td&gt;
+&lt;td&gt;Test 4 on 11/26 (16.1-16.7)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;12/2-12/5&lt;/td&gt;
+&lt;td&gt;16.8, 16.9, Review&lt;/td&gt;
+&lt;td&gt;Classes end on 12/4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
