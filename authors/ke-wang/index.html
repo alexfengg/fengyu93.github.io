@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -236,7 +274,7 @@
   <meta property="og:description" content="Ph.D candidate"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2016-01-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;00:00">
   
 
   
@@ -508,6 +546,10 @@
         
         <li>
           <a href="/publication/wang-2016-stationary/">Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</a>
+        </li>
+        
+        <li>
+          <a href="/publication/wwy2017/">Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</a>
         </li>
         
       </ul>

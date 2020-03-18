@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -524,18 +562,10 @@
     
     
     <div>
-      <h2><a href="/publication/yu-2019-algorithm/" >An Algorithm for Graph-Fused Lasso Based on Graph Decomposition</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
       <h2><a href="/publication/wangglobal/" >Global well-posedness of advective Lotka--Volterra competition systems with nonlinear diffusion</a></h2>
       <div class="article-style">
+        
+          This paper investigates the global well-posedness of a class of reaction–advection–diffusion models with nonlinear diffusion and Lotka–Volterra dynamics. We prove the existence and uniform boundedness of the global-in-time solutions to the fully …
         
       </div>
     </div>
@@ -547,6 +577,8 @@
       <h2><a href="/publication/wang-2017-boundedness/" >Boundedness in logistic Keller-Segel models with nonlinear diffusion and sensitivity functions</a></h2>
       <div class="article-style">
         
+          We consider the following fully parabolic Keller-Segel system $$\begin{cases} u_t=\nabla\cdot(D(u)\nabla u-S(u)\nabla v)+u(1-u^\gamma) & x\in\Omega,t0 \\\ v_t=\Delta v-v+u & x\in\Omega,t0 \\\ \frac{\partial u}{\partial \nu}=\frac{\partial v}{\partial …
+        
       </div>
     </div>
   
@@ -556,6 +588,20 @@
     <div>
       <h2><a href="/publication/wang-2016-stationary/" >Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</a></h2>
       <div class="article-style">
+        
+          This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/publication/wwy2017/" >Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</a></h2>
+      <div class="article-style">
+        
+          This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density …
         
       </div>
     </div>

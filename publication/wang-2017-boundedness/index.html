@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="We consider the following fully parabolic Keller-Segel system $$\begin{cases} u_t=\nabla\cdot(D(u)\nabla u-S(u)\nabla v)&#43;u(1-u^\gamma) &amp; x\in\Omega,t&gt;0 \\\ v_t=\Delta v-v&#43;u &amp; x\in\Omega,t&gt;0 \\\ \frac{\partial u}{\partial \nu}=\frac{\partial v}{\partial \nu}=0, &amp; x\in\partial\Omega,t&gt;0 \end{cases}$$ over a multi-dimensional bounded domain $\Omega\subset\mathbb{R}^N$. Here $D(u)$ and $S(u)$ are smooth functions satisfying: $D(0)&gt;0, D(u)\geq K_1u^{m_1}$ and $S(u)\leq K_2u^{m_2}, \forall u\geq 0$, for some constants $K_i\in \mathbb{R}^&#43;, m_i\in\mathbb{R}, i=1,2$. It is proved that, when the parameter pair $(m_1,m_2)$ lies in some specific regions, the system admits global classical solutions and they are uniformly bounded in time. We cover and extend [22,28], in particular when $N\geq 3$ and $\gamma\geq 1$, and [3,29] when $m_1&gt;\gamma−2N$ if $\gamma\in(0,1)$ or $m_1&gt;\gamma−4N&#43;2$ if $\gamma\in[1,\infty)$. Moreover, according to our results, the index $2N$ is, in contrast to the model without cellular growth, no longer critical to the global existence or collapse of this system.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/wang-2017-boundedness/">
@@ -43,6 +43,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -174,9 +177,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -206,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -231,13 +272,13 @@
   <meta property="og:site_name" content="Feng.Yu">
   <meta property="og:url" content="/publication/wang-2017-boundedness/">
   <meta property="og:title" content="Boundedness in logistic Keller-Segel models with nonlinear diffusion and sensitivity functions | Feng.Yu">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:description" content="We consider the following fully parabolic Keller-Segel system $$\begin{cases} u_t=\nabla\cdot(D(u)\nabla u-S(u)\nabla v)&#43;u(1-u^\gamma) &amp; x\in\Omega,t&gt;0 \\\ v_t=\Delta v-v&#43;u &amp; x\in\Omega,t&gt;0 \\\ \frac{\partial u}{\partial \nu}=\frac{\partial v}{\partial \nu}=0, &amp; x\in\partial\Omega,t&gt;0 \end{cases}$$ over a multi-dimensional bounded domain $\Omega\subset\mathbb{R}^N$. Here $D(u)$ and $S(u)$ are smooth functions satisfying: $D(0)&gt;0, D(u)\geq K_1u^{m_1}$ and $S(u)\leq K_2u^{m_2}, \forall u\geq 0$, for some constants $K_i\in \mathbb{R}^&#43;, m_i\in\mathbb{R}, i=1,2$. It is proved that, when the parameter pair $(m_1,m_2)$ lies in some specific regions, the system admits global classical solutions and they are uniformly bounded in time. We cover and extend [22,28], in particular when $N\geq 3$ and $\gamma\geq 1$, and [3,29] when $m_1&gt;\gamma−2N$ if $\gamma\in(0,1)$ or $m_1&gt;\gamma−4N&#43;2$ if $\gamma\in[1,\infty)$. Moreover, according to our results, the index $2N$ is, in contrast to the model without cellular growth, no longer critical to the global existence or collapse of this system."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-03-18T06:07:30&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2017-09-01T00:00:00&#43;00:00">
   
 
   
@@ -264,7 +305,7 @@
   "headline": "Boundedness in logistic Keller-Segel models with nonlinear diffusion and sensitivity functions",
   
   "datePublished": "2020-03-18T06:07:30Z",
-  "dateModified": "2017-01-01T00:00:00Z",
+  "dateModified": "2017-09-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -279,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "We consider the following fully parabolic Keller-Segel system $$\\begin{cases} u_t=\\nabla\\cdot(D(u)\\nabla u-S(u)\\nabla v)+u(1-u^\\gamma) \u0026 x\\in\\Omega,t\u003e0 \\\\\\ v_t=\\Delta v-v+u \u0026 x\\in\\Omega,t\u003e0 \\\\\\ \\frac{\\partial u}{\\partial \\nu}=\\frac{\\partial v}{\\partial \\nu}=0, \u0026 x\\in\\partial\\Omega,t\u003e0 \\end{cases}$$ over a multi-dimensional bounded domain $\\Omega\\subset\\mathbb{R}^N$. Here $D(u)$ and $S(u)$ are smooth functions satisfying: $D(0)\u003e0, D(u)\\geq K_1u^{m_1}$ and $S(u)\\leq K_2u^{m_2}, \\forall u\\geq 0$, for some constants $K_i\\in \\mathbb{R}^+, m_i\\in\\mathbb{R}, i=1,2$. It is proved that, when the parameter pair $(m_1,m_2)$ lies in some specific regions, the system admits global classical solutions and they are uniformly bounded in time. We cover and extend [22,28], in particular when $N\\geq 3$ and $\\gamma\\geq 1$, and [3,29] when $m_1\u003e\\gamma−2N$ if $\\gamma\\in(0,1)$ or $m_1\u003e\\gamma−4N+2$ if $\\gamma\\in[1,\\infty)$. Moreover, according to our results, the index $2N$ is, in contrast to the model without cellular growth, no longer critical to the global existence or collapse of this system."
 }
 </script>
 
@@ -605,6 +646,8 @@
 
 
 
+  
+
 
 
 
@@ -627,6 +670,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/wang-2017-boundedness/wang-2017-boundedness.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
@@ -646,6 +693,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.3934/dcds.2017216" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
@@ -658,6 +709,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We consider the following fully parabolic Keller-Segel system $$\begin{cases} u_t=\nabla\cdot(D(u)\nabla u-S(u)\nabla v)+u(1-u^\gamma) &amp; x\in\Omega,t&gt;0 \\ v_t=\Delta v-v+u &amp; x\in\Omega,t&gt;0 \\ \frac{\partial u}{\partial \nu}=\frac{\partial v}{\partial \nu}=0, &amp; x\in\partial\Omega,t&gt;0 \end{cases}$$ over a multi-dimensional bounded domain $\Omega\subset\mathbb{R}^N$. Here $D(u)$ and $S(u)$ are smooth functions satisfying: $D(0)&gt;0, D(u)\geq K_1u^{m_1}$ and $S(u)\leq K_2u^{m_2}, \forall u\geq 0$, for some constants $K_i\in \mathbb{R}^+, m_i\in\mathbb{R}, i=1,2$. It is proved that, when the parameter pair $(m_1,m_2)$ lies in some specific regions, the system admits global classical solutions and they are uniformly bounded in time. We cover and extend [22,28], in particular when $N\geq 3$ and $\gamma\geq 1$, and [3,29] when $m_1&gt;\gamma−2N$ if $\gamma\in(0,1)$ or $m_1&gt;\gamma−4N+2$ if $\gamma\in[1,\infty)$. Moreover, according to our results, the index $2N$ is, in contrast to the model without cellular growth, no longer critical to the global existence or collapse of this system.</p>
     
 
     
@@ -707,186 +761,8 @@
 
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/wang-2017-boundedness/&amp;text=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/wang-2017-boundedness/&amp;t=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions&amp;body=/publication/wang-2017-boundedness/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/wang-2017-boundedness/&amp;title=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions%20/publication/wang-2017-boundedness/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/wang-2017-boundedness/&amp;title=Boundedness%20in%20logistic%20Keller-Segel%20models%20with%20nonlinear%20diffusion%20and%20sensitivity%20functions" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
 
 
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/qi-wang/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/jingyue-yang/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/feng-yu/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
 
 
 

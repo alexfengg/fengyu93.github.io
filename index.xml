@@ -19,8 +19,7 @@
       <guid>/courses/mhf3302_2020/</guid>
       <description>&lt;h2 id=&#34;logic-and-proof-in-mathematics&#34;&gt;Logic And Proof In Mathematics&lt;/h2&gt;
 &lt;p&gt;Time and Location: MSB 406 on Tuesday/Thursday 1:30-2:50 PM&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;%5cassets%5cPDFs%5cMAC2313%5csyllabus_MAC2313.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/syllabus_MHF3302_20.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instructor:  Feng Yu&lt;/p&gt;
 &lt;p&gt;Office Room:  MSB 305B&lt;/p&gt;
 &lt;p&gt;Office Hours:  Tuesday/Thursday 10:30-12:00 AM or by appointment&lt;/p&gt;
@@ -45,6 +44,14 @@
     </item>
     
     <item>
+      <title>An Algorithm for Graph-Fused Lasso Based on Graph Decomposition</title>
+      <link>/publication/yu-2019-algorithm/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/yu-2019-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MAC 2313, 2019 Fall</title>
       <link>/courses/mac2313_2019/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
@@ -55,8 +62,7 @@
 &lt;li&gt;MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006)&lt;/li&gt;
 &lt;li&gt;MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;
-&lt;a href=&#34;/courses/MAC2313_2019/syllabus_MAC2313.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/syllabus_MAC2313_19.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instructor:  Feng Yu&lt;/p&gt;
 &lt;p&gt;Office Room:  MSB 305B&lt;/p&gt;
 &lt;p&gt;Office Hours:  MTWR 1:00PM-2:15PM&lt;/p&gt;
@@ -175,14 +181,6 @@ Corequisite(s): None.&lt;/p&gt;
     </item>
     
     <item>
-      <title>An Algorithm for Graph-Fused Lasso Based on Graph Decomposition</title>
-      <link>/publication/yu-2019-algorithm/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/yu-2019-algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Global well-posedness of advective Lotka--Volterra competition systems with nonlinear diffusion</title>
       <link>/publication/wangglobal/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -201,7 +199,7 @@ Corequisite(s): None.&lt;/p&gt;
     <item>
       <title>Boundedness in logistic Keller-Segel models with nonlinear diffusion and sensitivity functions</title>
       <link>/publication/wang-2017-boundedness/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       <guid>/publication/wang-2017-boundedness/</guid>
       <description></description>
     </item>
@@ -209,8 +207,16 @@ Corequisite(s): None.&lt;/p&gt;
     <item>
       <title>Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</title>
       <link>/publication/wang-2016-stationary/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/wang-2016-stationary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</title>
+      <link>/publication/wwy2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/wwy2017/</guid>
       <description></description>
     </item>
     

@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -527,7 +565,7 @@
       <h2><a href="/publication/dutta-2018-security/" >Security for safety: a path toward building trusted autonomous vehicles</a></h2>
       <div class="article-style">
         
-          A modified Kalman filter and a Chi-squared detector to prevent potential hazards in LTI systems.
+          Automotive systems have always been designed with safety in mind. In this regard, the functional safety standard, ISO 26262, was drafted with the intention of minimizing risk due to random hardware faults or systematic failure in design of electrical …
         
       </div>
     </div>

@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -236,7 +274,7 @@
   <meta property="og:description" content="Ph.D candidate"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-01-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-08-06T00:00:00&#43;00:00">
   
 
   
@@ -538,6 +576,9 @@
         
         
       
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -555,6 +596,10 @@
             
             <option value=".pubtype-2">
               Journal article
+            </option>
+            
+            <option value=".pubtype-3">
+              Preprint
             </option>
             
           </select>
@@ -577,16 +622,148 @@
               2017
             </option>
             
-            <option value=".year-2016">
-              2016
-            </option>
-            
             
           </select>
         </div>
       </div>
 
       <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/feng-yu/">Feng Yu</a></span>, <span><a href="/authors/yi-yang/">Yi Yang</a></span>, <span><a href="/authors/teng-zhang/">Teng Zhang</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/yu-2019-algorithm/">An Algorithm for Graph-Fused Lasso Based on Graph Decomposition</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>This work proposes a new algorithm for solving the graph-fused lasso (GFL), a method for parameter estimation that operates under the assumption that the signal tends to be locally constant over a predefined graph structure. The proposed method applies the alternating direction method of multipliers (ADMM) algorithm and is based on the decomposition of the objective function into two components. While ADMM has been widely used in this problem, existing works such as network lasso decompose the objective function into the loss function component and the total variation penalty component. In comparison, this work proposes to decompose the objective function into two components, where one component is the loss function plus part of the total variation penalty, and the other component is the remaining total variation penalty. Compared with the network lasso algorithm, this method has a smaller computational cost per iteration and converges faster in most simulations numerically.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/yu-2019-algorithm/yu-2019-algorithm.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/yu-2019-algorithm/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
         
 
         
@@ -606,6 +783,8 @@
 
 
 
+
+  
 
 
 <div class="card-simple">
@@ -670,6 +849,10 @@
   </h3>
 
   
+  <div class="article-style">
+    <p>This paper investigates the global well-posedness of a class of reaction–advection–diffusion models with nonlinear diffusion and Lotka–Volterra dynamics. We prove the existence and uniform boundedness of the global-in-time solutions to the fully parabolic systems under certain growth conditions on the diffusion and sensitivity functions. Global existence and uniform boundedness of the corresponding parabolic–elliptic system are also obtained. Our results suggest that attraction (positive taxis) inhibits blowups in Lotka–Volterra competition systems.</p>
+  </div>
+  
 
   
   <div class="btn-links">
@@ -685,6 +868,10 @@
   
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/wangglobal/wangglobal.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -705,133 +892,9 @@
 
 
 
-
-
-  </div>
-  
-
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
-          
-            
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/authors/feng-yu/">Feng Yu</a></span>, <span><a href="/authors/yi-yang/">Yi Yang</a></span>, <span><a href="/authors/teng-zhang/">Teng Zhang</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>arXiv preprint arXiv:1908.02370</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/yu-2019-algorithm/">An Algorithm for Graph-Fused Lasso Based on Graph Decomposition</a>
-  </h3>
-
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/yu-2019-algorithm/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1017/prm.2019.10" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -901,7 +964,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      <em>ICCAD</em>
+      <em>Proceedings of the International Conference on Computer-Aided Design</em>
     
   </span>
   
@@ -929,7 +992,7 @@
 
   
   <div class="article-style">
-    <p>A modified Kalman filter and a Chi-squared detector to prevent potential hazards in LTI systems.</p>
+    <p>Automotive systems have always been designed with safety in mind. In this regard, the functional safety standard, ISO 26262, was drafted with the intention of minimizing risk due to random hardware faults or systematic failure in design of electrical and electronic components of an automobile. However, growing complexity of a modern car has added another potential point of failure in the form of cyber or sensor attacks. Recently, researchers have demonstrated that vulnerability in vehicle&rsquo;s software or sensing units could enable them to remotely alter the intended operation of the vehicle. As such, in addition to safety, security should be considered as an important design goal. However, designing security solutions without the consideration of safety objectives could result in potential hazards. Consequently, in this paper we propose the notion of security for safety and show that by integrating safety conditions with our system-level security solution, which comprises of a modified Kalman filter and a Chi-squared detector, we can prevent potential hazards that could occur due to violation of safety objectives during an attack. Furthermore, with the help of a car-following case study, where the follower car is equipped with an adaptive-cruise control unit, we show that our proposed system-level security solution preserves the safety constraints and prevent collision between vehicle while under sensor attack.</p>
   </div>
   
 
@@ -1005,6 +1068,8 @@
 
 
 
+  
+
 
 <div class="card-simple">
 
@@ -1068,6 +1133,10 @@
   </h3>
 
   
+  <div class="article-style">
+    <p>We consider the following fully parabolic Keller-Segel system $$\begin{cases} u_t=\nabla\cdot(D(u)\nabla u-S(u)\nabla v)+u(1-u^\gamma) &amp; x\in\Omega,t&gt;0 \\ v_t=\Delta v-v+u &amp; x\in\Omega,t&gt;0 \\ \frac{\partial u}{\partial \nu}=\frac{\partial v}{\partial \nu}=0, &amp; x\in\partial\Omega,t&gt;0 \end{cases}$$ over a multi-dimensional bounded domain $\Omega\subset\mathbb{R}^N$. Here $D(u)$ and $S(u)$ are smooth functions satisfying: $D(0)&gt;0, D(u)\geq K_1u^{m_1}$ and $S(u)\leq K_2u^{m_2}, \forall u\geq 0$, for some constants $K_i\in \mathbb{R}^+, m_i\in\mathbb{R}, i=1,2$. It is proved that, when the parameter pair $(m_1,m_2)$ lies in some specific regions, the system admits global classical solutions and they are uniformly bounded in time. We cover and extend [22,28], in particular when $N\geq 3$ and $\gamma\geq 1$, and [3,29] when $m_1&gt;\gamma−2N$ if $\gamma\in(0,1)$ or $m_1&gt;\gamma−4N+2$ if $\gamma\in[1,\infty)$. Moreover, according to our results, the index $2N$ is, in contrast to the model without cellular growth, no longer critical to the global existence or collapse of this system.</p>
+  </div>
+  
 
   
   <div class="btn-links">
@@ -1083,6 +1152,10 @@
   
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/wang-2017-boundedness/wang-2017-boundedness.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -1103,6 +1176,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3934/dcds.2017216" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
   </div>
@@ -1119,7 +1196,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
           
             
 
@@ -1132,6 +1209,8 @@
 
 
 
+
+  
 
 
 <div class="card-simple">
@@ -1161,7 +1240,140 @@
     
       
     
-    2016
+    2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>DCDS-A</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/wwy2017/">Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension N=1,2 and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3934/dcds.2017021" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/ke-wang/">Ke Wang</a></span>, <span><a href="/authors/qi-wang/">Qi Wang</a></span>, <span><a href="/authors/feng-yu/">Feng Yu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2017
   </span>
   
 
@@ -1196,6 +1408,10 @@
   </h3>
 
   
+  <div class="article-style">
+    <p>This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension $N=1,2$ and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results.</p>
+  </div>
+  
 
   
   <div class="btn-links">
@@ -1211,6 +1427,10 @@
   
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/wang-2016-stationary/wang-2016-stationary.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -1230,6 +1450,10 @@
 
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3934/dcds.2017021" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 

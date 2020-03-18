@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension $N=1,2$ and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/wang-2016-stationary/">
@@ -43,6 +43,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -174,9 +177,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -206,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145775439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-145775439-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -231,13 +272,13 @@
   <meta property="og:site_name" content="Feng.Yu">
   <meta property="og:url" content="/publication/wang-2016-stationary/">
   <meta property="og:title" content="Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis | Feng.Yu">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:description" content="This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension $N=1,2$ and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-03-18T06:07:30&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2017-01-01T00:00:00&#43;00:00">
   
 
   
@@ -264,7 +305,7 @@
   "headline": "Stationary and time-periodic patterns of two-predator and one-prey systems with prey-taxis",
   
   "datePublished": "2020-03-18T06:07:30Z",
-  "dateModified": "2016-01-01T00:00:00Z",
+  "dateModified": "2017-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -279,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension $N=1,2$ and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results."
 }
 </script>
 
@@ -579,7 +620,7 @@
     
       
     
-    2016
+    2017
   </span>
   
 
@@ -605,6 +646,8 @@
 
 
 
+  
+
 
 
 
@@ -627,6 +670,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/wang-2016-stationary/wang-2016-stationary.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
@@ -646,6 +693,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.3934/dcds.2017021" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
@@ -658,6 +709,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper concerns pattern formation in a class of reaction-advection-diffusion systems modeling the population dynamics of two predators and one prey. We consider the biological situation that both predators forage along the population density gradient of the preys which can defend themselves as a group. We prove the global existence and uniform boundedness of positive classical solutions for the fully parabolic system over a bounded domain with space dimension $N=1,2$ and for the parabolic-parabolic-elliptic system over higher space dimensions. Linearized stability analysis shows that prey-taxis stabilizes the positive constant equilibrium if there is no group defense while it destabilizes the equilibrium otherwise. Then we obtain stationary and time-periodic nontrivial solutions of the system that bifurcate from the positive constant equilibrium. Moreover, the stability of these solutions is also analyzed in detail which provides a wave mode selection mechanism of nontrivial patterns for this strongly coupled system. Finally, we perform numerical simulations to illustrate and support our theoretical results.</p>
     
 
     
@@ -707,186 +761,8 @@
 
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/wang-2016-stationary/&amp;text=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/wang-2016-stationary/&amp;t=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis&amp;body=/publication/wang-2016-stationary/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/wang-2016-stationary/&amp;title=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis%20/publication/wang-2016-stationary/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/wang-2016-stationary/&amp;title=Stationary%20and%20time-periodic%20patterns%20of%20two-predator%20and%20one-prey%20systems%20with%20prey-taxis" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
 
 
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/ke-wang/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/qi-wang/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-    
-    
-
-
-
-
-
-  
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/feng-yu/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
 
 
 
