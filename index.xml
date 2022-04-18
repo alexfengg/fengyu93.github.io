@@ -25,7 +25,18 @@
       
       <guid>https://fengyu93.github.io/post/1-tf-m1/</guid>
       
-        <description>Guide to emoji usage in Hugo</description>
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://fengyu93.github.io/post/2-markdown/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/post/2-markdown/</guid>
+      
+        <description>table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;}  Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   Blockquote &amp;gt; blockquote   Ordered List 1.</description>
       
     </item>
     

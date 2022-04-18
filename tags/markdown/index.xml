@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Feng Yu (余锋)</title>
+    <link>https://fengyu93.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on Feng Yu (余锋)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://fengyu93.github.io/post/2-markdown/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/post/2-markdown/</guid>
+      
+        <description>table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;}  Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   Blockquote &amp;gt; blockquote   Ordered List 1.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
