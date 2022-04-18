@@ -1,16 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Feng.Yu</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Tags</title>
-      <link>/tags/</link>
-    </image>
+    <title>Tags on My blog</title>
+    <link>https://fengyu93.github.io/PersonalSite/tags/</link>
+    <description>Recent content in Tags on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/PersonalSite/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1</title>
+      <link>https://fengyu93.github.io/PersonalSite/tags/m1/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/PersonalSite/tags/m1/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://fengyu93.github.io/PersonalSite/tags/python/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/PersonalSite/tags/python/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>https://fengyu93.github.io/PersonalSite/tags/emoji/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/PersonalSite/tags/emoji/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://fengyu93.github.io/PersonalSite/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/PersonalSite/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
     
   </channel>
 </rss>
