@@ -112,13 +112,13 @@
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Install Tensorflow on Apple Silicon"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon)."/>
 
 
 
   
   <meta property="og:title" content="Install Tensorflow on Apple Silicon" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fengyu93.github.io/post/1-tf-m1/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-18T00:00:00+00:00" />
@@ -141,7 +141,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        
+        Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon).
 
 
       
@@ -191,7 +191,7 @@
 
     ,
         "url" : "https:\/\/fengyu93.github.io\/post\/1-tf-m1\/",
-        "wordCount" : "0",
+        "wordCount" : "71",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -361,7 +361,7 @@
             href="/post/"
             
             title=""
-            >Posts</a
+            >Writing</a
           >
         </li>
 
@@ -406,11 +406,26 @@
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text">0-minute read</span>
+            <span class="post__meta-text">One-minute read</span>
           </li>
         </ul>
 
-      </div>
+      <p>Necessary tools before the installation: <code>Homebrew</code>, <code>XCode tools</code>, and <code>Miniforge</code> (arm64 Apple Silicon).</p>
+<h3 id="step-1">Step 1</h3>
+<p>Install TensorFlow dependencies from Apple</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">conda install -c apple tensorflow-deps -y
+</span></span></code></pre></div><h3 id="step-2">Step 2</h3>
+<p>Install TensorFlow on Apple Silicon</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">python -m pip install tensorflow-macos
+</span></span></code></pre></div><h3 id="step-3">Step 3</h3>
+<p>Install the GPU support for TensorFlow on Apple Silicon</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip install tensorflow-metal
+</span></span></code></pre></div><h3 id="step-4">Step 4</h3>
+<p>Verify Tensorflow is successfully installed. Run the following commends in Python.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">import tensorflow as tf
+</span></span><span class="line"><span class="cl">tf.__version__
+</span></span><span class="line"><span class="cl">tf.config.list_physical_devices()
+</span></span></code></pre></div></div>
     <div class="post__footer">
       
 

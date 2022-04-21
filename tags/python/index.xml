@@ -6,7 +6,18 @@
     <description>Recent content in Python on Feng Yu (余锋)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Setup</title>
+      <link>https://fengyu93.github.io/post/3-python-enviorments-setup/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fengyu93.github.io/post/3-python-enviorments-setup/</guid>
+      
+        <description>table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;} r { color: Red } o { color: Orange } g { color: Green } b { color: Blue }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer.</description>
+      
+    </item>
+    
     <item>
       <title>Install Tensorflow on Apple Silicon</title>
       <link>https://fengyu93.github.io/post/1-tf-m1/</link>
@@ -14,7 +25,7 @@
       
       <guid>https://fengyu93.github.io/post/1-tf-m1/</guid>
       
-        <description></description>
+        <description>Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon).</description>
       
     </item>
     
