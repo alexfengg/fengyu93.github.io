@@ -118,13 +118,13 @@
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Python Setup"/>
-<meta name="twitter:description" content="table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;} r { color: Red } o { color: Orange } g { color: Green } b { color: Blue }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer."/>
+<meta name="twitter:description" content="table, td, th { border: 1px solid grey; padding: 8px; text-align: left; border-collapse: collapse; } table {width: 80%; }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer."/>
 
 
 
   
   <meta property="og:title" content="Python Setup" />
-<meta property="og:description" content="table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;} r { color: Red } o { color: Orange } g { color: Green } b { color: Blue }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer." />
+<meta property="og:description" content="table, td, th { border: 1px solid grey; padding: 8px; text-align: left; border-collapse: collapse; } table {width: 80%; }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fengyu93.github.io/post/3-python-enviorments-setup/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-20T00:00:00+00:00" />
@@ -147,7 +147,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        table, td, th { border: 1px solid grey; width: 50%; padding: 8px; text-align: left; border-collapse: collapse; } tr:hover {background-color: coral;} r { color: Red } o { color: Orange } g { color: Green } b { color: Blue }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer.
+        table, td, th { border: 1px solid grey; padding: 8px; text-align: left; border-collapse: collapse; } table {width: 80%; }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer.
 
 
       
@@ -197,7 +197,7 @@
 
     ,
         "url" : "https:\/\/fengyu93.github.io\/post\/3-python-enviorments-setup\/",
-        "wordCount" : "198",
+        "wordCount" : "258",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -483,27 +483,61 @@ if (!doNotTrack) {
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text">One-minute read</span>
+            <span class="post__meta-text">2-minute read</span>
           </li>
         </ul>
 
       <style>
 table, td, th {
-    border: 1px solid grey;
-    width: 50%;
-    padding: 8px;
-    text-align: left;
-    border-collapse: collapse;
+border: 1px solid grey;
+padding: 8px;
+text-align: left;
+border-collapse: collapse;
 }
-tr:hover {background-color: coral;}
-r { color: Red }
-o { color: Orange } 
-g { color: Green }
-b { color: Blue }
+table {width: 80%;
+}
 </style>
 <h2 id="light-weighted-conda-installer">Light-weighted conda installer</h2>
 <p><a href="https://github.com/conda-forge/miniforge"><strong>miniforge</strong></a> is the community (conda-forge) driven minimalistic <code>conda</code> installer. Subsequent package installations come thus from <code>conda-forge</code> channel.</p>
 <p><a href="https://docs.conda.io/en/latest/miniconda.html"><strong>miniconda</strong></a> is the Anaconda (company) driven minimalistic <code>conda</code> installer. Subsequent package installations come from the <code>anaconda</code> channels (default or otherwise).</p>
+<table>
+<thead>
+<tr>
+<th>Commands</th>
+<th>Descriptions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>conda update conda</code></td>
+<td>Update conda to the current version</td>
+</tr>
+<tr>
+<td><code>conda create --name env_1 python=3.9</code></td>
+<td>Create a new environment, install Python=3.9</td>
+</tr>
+<tr>
+<td><code>conda env remove --name env_1</code></td>
+<td>Delete an environment and everything in it</td>
+</tr>
+<tr>
+<td><code>source deactivate</code></td>
+<td>Deactivate the current environment</td>
+</tr>
+<tr>
+<td><code>conda update scikit-learn</code></td>
+<td>Update a package in the current environment</td>
+</tr>
+<tr>
+<td><code>conda install --channel conda-forge boltons</code></td>
+<td>Install a package (boltons) from a specific channel (conda-forge)</td>
+</tr>
+<tr>
+<td><code>which -a python</code></td>
+<td>Show the locations of all versions of Python that are currently in the path</td>
+</tr>
+</tbody>
+</table>
 <h2 id="installing-jupyter-notebook">Installing Jupyter Notebook</h2>
 <p>The goal here is to install Jupyter Notebook in the base environment and be able to switch among sub-environments.</p>
 <h3 id="base">(base)</h3>
