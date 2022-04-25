@@ -14,7 +14,7 @@
       
       <guid>https://fengyu93.github.io/post/1-tf-m1/</guid>
       
-        <description>Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon).</description>
+        <description>Steps for installing TF on M1 chip Macbook</description>
       
     </item>
     

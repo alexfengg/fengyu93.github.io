@@ -14,7 +14,7 @@
       
       <guid>https://fengyu93.github.io/post/3-python-enviorments-setup/</guid>
       
-        <description>table, td, th { border: 1px solid grey; padding: 8px; text-align: left; border-collapse: collapse; } table {width: 80%; }  Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer.</description>
+        <description>Simple guideline for setting up Conda, Jupyter notebook</description>
       
     </item>
     
@@ -36,7 +36,7 @@
       
       <guid>https://fengyu93.github.io/post/1-tf-m1/</guid>
       
-        <description>Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon).</description>
+        <description>Steps for installing TF on M1 chip Macbook</description>
       
     </item>
     
@@ -47,7 +47,7 @@
       
       <guid>https://fengyu93.github.io/post/2-markdown/</guid>
       
-        <description>table, td, th { border: 1px solid grey; padding: 8px; text-align: left; border-collapse: collapse; } table {width: 70%; } tr:hover { background-color: #555555; color: white;}  Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   Blockquote &amp;gt; blockquote   Ordered List 1.</description>
+        <description>Common styling syntax for writing markdown files.</description>
       
     </item>
     
