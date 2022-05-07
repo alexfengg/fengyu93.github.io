@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>course on Feng Yu (余锋)</title>
+    <title>course on Feng Yu</title>
     <link>https://fengyu93.github.io/tags/course/</link>
-    <description>Recent content in course on Feng Yu (余锋)</description>
+    <description>Recent content in course on Feng Yu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MHF 3302 Logic And Proof In Mathematics, 2020 Spring</title>
       <link>https://fengyu93.github.io/teaching/2.-mhf3302/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://fengyu93.github.io/teaching/2.-mhf3302/</guid>
-      
-        <description>Logic And Proof In Mathematics Time and Location: MSB 406 on Tuesday/Thursday 1:30-2:50 PM</description>
-      
+      <description>Logic And Proof In Mathematics Time and Location: MSB 406 on Tuesday/Thursday 1:30-2:50 PM
+Instructor: Feng Yu
+Office Room: MSB 305B
+Office Hours: Tuesday/Thursday 10:30-12:00 AM or by appointment
+Descriptions Introduction to set theory, logic and various proof techniques used in mathematics along with concepts such as relations, functions and cardinality.
+Required Textbook Mathematical Proofs: A Transition to Advanced Mathematics (4th ed.) by Chartrand, Polimeni, and Zhang, Pearson, 2018.
+We will cover chapters 1-11 and some selected sections from chapters 12-15.</description>
     </item>
-    
     <item>
       <title>MAC 2313 Calculus With Analytic Geometry III, 2019 Fall</title>
       <link>https://fengyu93.github.io/teaching/1.-mac2313/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://fengyu93.github.io/teaching/1.-mac2313/</guid>
-      
-        <description>Calculus With Analytic Geometry III Time and Location:
- MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006) MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)  Instructor: Feng Yu</description>
-      
+      <description>Calculus With Analytic Geometry III Time and Location:
+ MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006) MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)  Instructor: Feng Yu
+Office Room: MSB 305B
+Office Hours: MTWR 1:00PM-2:15PM
+Descriptions Class Hours: 4
+Lab and Field Work Hours: 0
+Contact Hours: 4
+Prerequisite(s): Grade of “C” (2.0) or better in MAC 2312, or score of 5 on the Calculus BC Advanced Placement Exam, or C.I.
+Corequisite(s): None.</description>
     </item>
-    
   </channel>
 </rss>

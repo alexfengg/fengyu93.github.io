@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on Feng Yu (余锋)</title>
+    <title>Markdown on Feng Yu</title>
     <link>https://fengyu93.github.io/tags/markdown/</link>
-    <description>Recent content in Markdown on Feng Yu (余锋)</description>
+    <description>Recent content in Markdown on Feng Yu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fengyu93.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://fengyu93.github.io/post/2-markdown/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://fengyu93.github.io/post/2-markdown/</guid>
-      
-        <description>Common styling syntax for writing markdown files.</description>
-      
+      <description>Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   &amp;gt;!spoilers!&amp;lt; &amp;gt;!spoilers!&amp;lt;   Blockquote &amp;gt; blockquote   Ordered List 1. First item 2. First item 3. First item   Unordered List - First item - Second item - Third item   Code `code`   Horizontal Rule ---   Link [title](https://www.</description>
     </item>
-    
   </channel>
 </rss>

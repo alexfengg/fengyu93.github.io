@@ -1,0 +1,141 @@
+[
+  {
+    "content": "Journal Papers  Feng Yu, Teng Zhang, Phase retrieval of complex-valued objects via a randomized Kaczmarz method, Information and Inference: A Journal of the IMA, 2021. Raj Gautam Dutta, Yaodan Hu, Yier Jin, Feng Yu, and Teng Zhang, Design and Analysis of Secure Dis tributed Estimator for Vehicular Platooning in Adversarial Environment, IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2020.3036376. Feng Yu, Yi Yang and Teng Zhang, An Algorithm for Graph-Fused Lasso Based on Graph Decomposition, to appear in Pattern Recognition. Qi Wang, Jingyue Yang, and Feng Yu, Global well-posedness of advective Lotka–Volterra competition system with nonlinear diffusion. Proceedings of the Royal Society of Edinburgh: Section A Mathematics, 150(5), 2322-2348. doi:10.1017/prm.2019.10 Qi Wang, Jingyue Yang, and Feng Yu, Boundedness in logistic Keller–Segel models with nonlinear diffusion and sensitivity functions. Discrete \u0026 Continuous Dynamical Systems - A, 2017, 37(9): 5021-5036. Ke Wang, Qi Wang, and Feng Yu, Stationary and time periodic patterns of two-predator and one-prey systems with prey-taxis. Discrete \u0026 Continuous Dynamical Systems - A, 2017, 37(1): 505-543.  Peer-Reviewed Conference Papers  Feng Yu, Yaodan Hu, Teng Zhang, Yier Jin, Special Issue: Resilient Distributed Estimator with Information Consensus for CPS Security. The 38th IEEE International Conference on Computer Design, 2020. Raj Gautam Dutta, Yaodan Hu, Yier Jin, Feng Yu, and Teng Zhang, Fast Attack-Resilient Distributed State Estimator for Cyber-Physical Systems. International Conference on Embedded Software, 2020. Raj Gautam Dutta, Yaodan Hu, Yier Jin, Feng Yu, and Teng Zhang, Security for Safety: A Path Toward Building Trusted Autonomous Vehicles. International Conference On Computer Aided Design, 2018.  Manuscript  Teng Zhang, Feng Yu, Marianna Pensky, Xing Fan, ALMA: Alternating Minimization Algorithm for Clustering Mixture Multilayer Network, arXiv:2102.10226. Hsin-Hsiung Huang, Feng Yu, Xing Fan, Teng Zhang, Robust Regularized Low-Rank Matrix Models for Regression and Classification.  ",
+    "description": "",
+    "tags": null,
+    "title": "Publications",
+    "uri": "/research/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Teaching",
+    "uri": "/teaching/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Writing",
+    "uri": "/post/"
+  },
+  {
+    "content": "We list some properties and inequalities of convexity, strongly-convexity, concavity, strongly-concavity  Convexity. The following definitions are equivalent. We say $f:S\\subset \\mathbb{R}$ is convex if   $f(\\theta x+ (1-\\theta)y)\\leq \\theta f(x)+(1-\\theta) f(y)$ for all $x,y\\in S$ and $0\\leq \\theta \\leq 1$\n  $f(y)-f(x)\\geq \\langle\\nabla f(x),y-x\\rangle$\n ",
+    "description": "Basic properties and inequalities.",
+    "tags": [
+      "Math"
+    ],
+    "title": "Convex, Strongly Convex, Concave, Strongly Concave",
+    "uri": "/post/4-convexstongly-convexconcavestrong-concave/"
+  },
+  {
+    "content": "Welcome I am a postdoc is a Department of Mathematics and Statistics, University at Albany, SUNY, under the supervision of Prof. Yiming Ying at ML@UA Lab.. I received my Ph.D. and M.S. in mathematics at University of Central Florida after I got B.S. in mathematics and B.E. in economics at Southwestern University of Finance and Economics, China. My current research interests are mainly in the areas of Statistical Learning Theory, Machine Learning, Optimization, and Mathematics of Data Science.\n Curriculum Vitae  Contact fyu5@albany.edu\n1400 Washington Avenue, Albany, NY 12222\nEarth Science \u0026 Mathematics, 128A\n",
+    "description": "",
+    "tags": null,
+    "title": "Feng Yu (余锋)",
+    "uri": "/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Math",
+    "uri": "/tags/math/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Tags",
+    "uri": "/tags/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Python",
+    "uri": "/tags/python/"
+  },
+  {
+    "content": "Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer. Subsequent package installations come thus from conda-forge channel.\nminiconda is the Anaconda (company) driven minimalistic conda installer. Subsequent package installations come from the anaconda channels (default or otherwise).\n   Commands Descriptions     conda update conda Update conda to the current version   conda create --name env_1 python=3.9 Create a new environment, install Python=3.9   conda env remove --name env_1 Delete an environment and everything in it   source deactivate Deactivate the current environment   conda update scikit-learn Update a package in the current environment   conda install --channel conda-forge boltons Install a package (boltons) from a specific channel (conda-forge)   which -a python Show the locations of all versions of Python that are currently in the path    Installing Jupyter Notebook The goal here is to install Jupyter Notebook in the base environment and be able to switch among sub-environments.\n(base) conda install -c conda-forge notebook conda install -c conda-forge nb_conda_kernels nb_conda_kernels : enables a Jupyter Notebook or JupyterLab application in one conda environment to access kernels for Python, R, and other languages found in other environments.\nAny other environments you wish to access in your notebooks must have an appropriate kernel package installed. For instance, to access a Python environment in env_1, it must have the ipykernel package in (env_1)\n(env_1) conda install -n python_env ipykernel jupyter_contrib_nbextensions : Jupyter Notebook extensions, which support a lot of autocompletion, additional information, etc.\nconda install -c conda-forge jupyter_contrib_nbextensions ",
+    "description": "Simple guideline for setting up Conda, Jupyter notebook",
+    "tags": [
+      "Python"
+    ],
+    "title": "Python Setup",
+    "uri": "/post/3-python-enviorments-setup/"
+  },
+  {
+    "content": "Necessary tools before the installation: Homebrew, XCode tools, and Miniforge (arm64 Apple Silicon).\nStep 1 Install TensorFlow dependencies from Apple\nconda install -c apple tensorflow-deps -y Step 2 Install TensorFlow on Apple Silicon\npython -m pip install tensorflow-macos Step 3 Install the GPU support for TensorFlow on Apple Silicon\npip install tensorflow-metal Step 4 Verify Tensorflow is successfully installed. Run the following commends in Python.\nimport tensorflow as tf tf.__version__ tf.config.list_physical_devices() ",
+    "description": "Steps for installing TF on M1 chip Macbook",
+    "tags": [
+      "M1",
+      "Python"
+    ],
+    "title": "Install Tensorflow on Apple Silicon",
+    "uri": "/post/1-tf-m1/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "M1",
+    "uri": "/tags/m1/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Markdown",
+    "uri": "/tags/markdown/"
+  },
+  {
+    "content": "Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   \u003e!spoilers!\u003c \u003e!spoilers!\u003c   Blockquote \u003e blockquote   Ordered List 1. First item 2. First item 3. First item   Unordered List - First item - Second item - Third item   Code `code`   Horizontal Rule ---   Link [title](https://www.example.com)   Image ![alt text](image.jpg)   Table | Syntax | Description |  | ———– | ———– |  | Paragraph | Text |   Fenced Code Block ``` {  “firstName”: “John”,  “lastName”: “Smith”,  “age”: 25  }  ```   Footnote Here’s a sentence with a footnote. [^1]  [^1]: This is the footnote.   Heading ID ### My Great Heading {#custom-id}   Definition List term  : definition   Strikethrough ~~The world is flat.~~  The world is flat.   Task List - [x] Write the press release  -[ ] Update the website`  -[ ] Contact the media   Emoji That is so funny! :joy: (:joy:)   Highlight ==very important words==    ",
+    "description": "Common styling syntax for writing markdown files.",
+    "tags": [
+      "Markdown"
+    ],
+    "title": "Markdown Syntax Guide",
+    "uri": "/post/2-markdown/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "course",
+    "uri": "/tags/course/"
+  },
+  {
+    "content": "Logic And Proof In Mathematics Time and Location: MSB 406 on Tuesday/Thursday 1:30-2:50 PM\nInstructor: Feng Yu\nOffice Room: MSB 305B\nOffice Hours: Tuesday/Thursday 10:30-12:00 AM or by appointment\nDescriptions Introduction to set theory, logic and various proof techniques used in mathematics along with concepts such as relations, functions and cardinality.\nRequired Textbook Mathematical Proofs: A Transition to Advanced Mathematics (4th ed.) by Chartrand, Polimeni, and Zhang, Pearson, 2018.\nWe will cover chapters 1-11 and some selected sections from chapters 12-15.\nGrading Police Your assessment is based on the overall percentage earned in: homework (10%), quizzes (10%), three midterm tests (3*15%), final exam (35%). Your score on the final will replace your lowest midterm test score provided that your final exam score is higher than the lowest score of the midterm tests. This policy can only apply once and includes a grade of zero due to a missed test. This policy does not apply for a grade of zero as a penalty of an academic integrity violation.\nGrading Scale 100-90 A, 89-80 B, 79-70 C, 69-60 D, 59-0 F\nHomework Homework problems will be assigned and graded for completeness. A complete homework must detail the work done to obtained a final answer. Assignments will be announced in class and on Webcourses@UCF, and you are expected to complete by the suggested date. You NEED submit your homework on Webcourses@UCF.\nQuiz There are three quizzes, which are scheduled before the midterm weeks. They would be based on the materials including homework problems and lectures examples.\nMidterms There are three midterm exams, which are tentatively scheduled on Feb 4th, March 3rd, and April 7th. The exact dates may be adjusted based on the pace of the course. Each of midterm exam will count 15% of your grade. Any question or mistake about grading must be solved within one week. After one week, your score would not change even the test is graded incorrectly. Don’t alter a marked exam for re-grading and it would result in an alleged academic misconduct.\nFinal Examination It is comprehensive and weighs 35% of your grade. Failure to take the final exam will result in failure of the course. Your final exam score may replace your lowest score of the midterms (i.e. the lowest midterm is dropped and the final exam weighs 50%) provided that it is higher than the lowest score of the midterms. The final exam will be 1:00 PM – 3:50 PM on Tuesday, April 21, 2020.\n",
+    "description": "",
+    "tags": [
+      "course"
+    ],
+    "title": "MHF 3302 Logic And Proof In Mathematics, 2020 Spring",
+    "uri": "/teaching/2.-mhf3302/"
+  },
+  {
+    "content": "Calculus With Analytic Geometry III Time and Location:\n MTWR: 2:30PM-3:20PM, MSB 0405 (Section 0006) MTWR: 9:30AM-10:20AM, MSB 0406 (Section 0012)  Instructor: Feng Yu\nOffice Room: MSB 305B\nOffice Hours: MTWR 1:00PM-2:15PM\nDescriptions Class Hours: 4\nLab and Field Work Hours: 0\nContact Hours: 4\nPrerequisite(s): Grade of “C” (2.0) or better in MAC 2312, or score of 5 on the Calculus BC Advanced Placement Exam, or C.I.\nCorequisite(s): None.\nGeometry of higher dimensional Euclidean space; vectors and vector functions; partial derivatives; multiple integrals; line integrals; vector fields; Green’s Theorem and Stokes’ Theorem.\nREQUIRED MATERIAL: Calculus (Early Transcendentals) 8th Edition, by Stewart with WebAssign access.\nTentative Schedule and lecture notes    Week Date Sections Note     1 8/26-8/29 12.1, 12.2, 12.3 No classes after 2PM on 8/29   2 9/2-9/5  No class caused by Hurricane Dorian   3 9/9-9/12 12.3, 12.4, 12.5    4 9/16-9/19 12.6, 13.1, 13.2    5 9/23-9/26 13,2, 13.3, Review Test 1 on 9/26 (12.1-12.6, 13.1, 13.2)   6 9/30-10/3 14.1, 14.3, 14.4 Section 14.2 optional or concept review   7 10/7-10/10 14.5, 14.6, 14.7    8 10/14-10/17 15.1, 15.2, Review Test 2 on 10/17 (13.3, 14.1, 14.3-14.7)   9 10/21-10/24 15.2, 15.3, 15.6 Skip 15.4, 15.5   10 10/28-10/31 15.7, 15.8, 16.1 Withdrawal deadline: 11/1   11 11/4-11/7 16.1, 16.2, Review Test 3 on 11/7 (15.1-15.3, 15.6-15.8)   12 11/11-11/14 16.3, 16.4, 16.5 No class on 11/11   13 11/18-11/21 16.5, 16.6, 16.7    14 11/25-11/28 Review Test 4 on 11/26 (16.1-16.7)   15 12/2-12/5 16.8, 16.9, Review Classes end on 12/4    ",
+    "description": "",
+    "tags": [
+      "course"
+    ],
+    "title": "MAC 2313 Calculus With Analytic Geometry III, 2019 Fall",
+    "uri": "/teaching/1.-mac2313/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/"
+  },
+  {
+    "content": "Tooling  GitHub - Continuous deployement, testing and hosting of this project’s sources and its documentation Hugo - The static site generator of your choice Relearn - Hugo Theme Google Analytics and a great tutorial for adding Analytics in Hugo.  ",
+    "description": "",
+    "tags": null,
+    "title": "Credits",
+    "uri": "/credits/"
+  }
+]
