@@ -12,9 +12,8 @@
       <link>https://fengyu93.github.io/post/4-convexstongly-convexconcavestrong-concave/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
       <guid>https://fengyu93.github.io/post/4-convexstongly-convexconcavestrong-concave/</guid>
-      <description>We list some properties and inequalities of convexity, strongly-convexity, concavity, strongly-concavity  Convexity. The following definitions are equivalent. We say $f:S\subset \mathbb{R}$ is convex if   $f(\theta x+ (1-\theta)y)\leq \theta f(x)+(1-\theta) f(y)$ for all $x,y\in S$ and $0\leq \theta \leq 1$
-  $f(y)-f(x)\geq \langle\nabla f(x),y-x\rangle$
- </description>
+      <description>We list some properties and inequalities of convexity, strongly-convexity, concavity, strongly-concavity Convexity. The following definitions are equivalent. We say $f:S\subset \mathbb{R}$ is convex if $f(\theta x+ (1-\theta)y)\leq \theta f(x)+(1-\theta) f(y)$ for all $x,y\in S$ and $0\leq \theta \leq 1$
+$f(y)-f(x)\geq \langle\nabla f(x),y-x\rangle$</description>
     </item>
     <item>
       <title>Python Setup</title>
@@ -23,7 +22,7 @@
       <guid>https://fengyu93.github.io/post/3-python-enviorments-setup/</guid>
       <description>Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer. Subsequent package installations come thus from conda-forge channel.
 miniconda is the Anaconda (company) driven minimalistic conda installer. Subsequent package installations come from the anaconda channels (default or otherwise).
-   Commands Descriptions     conda update conda Update conda to the current version   conda create --name env_1 python=3.9 Create a new environment, install Python=3.</description>
+Commands Descriptions conda update conda Update conda to the current version conda create --name env_1 python=3.9 Create a new environment, install Python=3.9 conda env remove --name env_1 Delete an environment and everything in it source deactivate Deactivate the current environment conda update scikit-learn Update a package in the current environment conda install --channel conda-forge boltons Install a package (boltons) from a specific channel (conda-forge) which -a python Show the locations of all versions of Python that are currently in the path Installing Jupyter Notebook The goal here is to install Jupyter Notebook in the base environment and be able to switch among sub-environments.</description>
     </item>
     <item>
       <title>Install Tensorflow on Apple Silicon</title>
@@ -42,7 +41,7 @@ import tensorflow as tf tf.__version__ tf.</description>
       <link>https://fengyu93.github.io/post/2-markdown/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://fengyu93.github.io/post/2-markdown/</guid>
-      <description>Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   &amp;gt;!spoilers!&amp;lt; &amp;gt;!spoilers!&amp;lt;   Blockquote &amp;gt; blockquote   Ordered List 1. First item 2. First item 3. First item   Unordered List - First item - Second item - Third item   Code `code`   Horizontal Rule ---   Link [title](https://www.</description>
+      <description>Markdown syntax handbook Element Markdown Syntax Heading # H1 ## H2 ### H3 Bold **bold text** Italic *italicized text* &amp;gt;!spoilers!&amp;lt; &amp;gt;!spoilers!&amp;lt; Blockquote &amp;gt; blockquote Ordered List 1. First item 2. First item 3. First item Unordered List - First item - Second item - Third item Code `code` Horizontal Rule --- Link [title](https://www.example.com) Image ![alt text](image.jpg) Table | Syntax | Description | | &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; | &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; | | Paragraph | Text | Fenced Code Block ``` { &amp;ldquo;firstName&amp;rdquo;: &amp;ldquo;John&amp;rdquo;, &amp;ldquo;lastName&amp;rdquo;: &amp;ldquo;Smith&amp;rdquo;, &amp;ldquo;age&amp;rdquo;: 25 } ``` Footnote Here&amp;rsquo;s a sentence with a footnote.</description>
     </item>
   </channel>
 </rss>

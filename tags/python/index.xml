@@ -14,7 +14,7 @@
       <guid>https://fengyu93.github.io/post/3-python-enviorments-setup/</guid>
       <description>Light-weighted conda installer miniforge is the community (conda-forge) driven minimalistic conda installer. Subsequent package installations come thus from conda-forge channel.
 miniconda is the Anaconda (company) driven minimalistic conda installer. Subsequent package installations come from the anaconda channels (default or otherwise).
-   Commands Descriptions     conda update conda Update conda to the current version   conda create --name env_1 python=3.9 Create a new environment, install Python=3.</description>
+Commands Descriptions conda update conda Update conda to the current version conda create --name env_1 python=3.9 Create a new environment, install Python=3.9 conda env remove --name env_1 Delete an environment and everything in it source deactivate Deactivate the current environment conda update scikit-learn Update a package in the current environment conda install --channel conda-forge boltons Install a package (boltons) from a specific channel (conda-forge) which -a python Show the locations of all versions of Python that are currently in the path Installing Jupyter Notebook The goal here is to install Jupyter Notebook in the base environment and be able to switch among sub-environments.</description>
     </item>
     <item>
       <title>Install Tensorflow on Apple Silicon</title>

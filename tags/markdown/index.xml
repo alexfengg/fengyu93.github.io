@@ -12,7 +12,7 @@
       <link>https://fengyu93.github.io/post/2-markdown/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://fengyu93.github.io/post/2-markdown/</guid>
-      <description>Markdown syntax handbook    Element Markdown Syntax     Heading # H1 ## H2 ### H3   Bold **bold text**   Italic *italicized text*   &amp;gt;!spoilers!&amp;lt; &amp;gt;!spoilers!&amp;lt;   Blockquote &amp;gt; blockquote   Ordered List 1. First item 2. First item 3. First item   Unordered List - First item - Second item - Third item   Code `code`   Horizontal Rule ---   Link [title](https://www.</description>
+      <description>Markdown syntax handbook Element Markdown Syntax Heading # H1 ## H2 ### H3 Bold **bold text** Italic *italicized text* &amp;gt;!spoilers!&amp;lt; &amp;gt;!spoilers!&amp;lt; Blockquote &amp;gt; blockquote Ordered List 1. First item 2. First item 3. First item Unordered List - First item - Second item - Third item Code `code` Horizontal Rule --- Link [title](https://www.example.com) Image ![alt text](image.jpg) Table | Syntax | Description | | &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; | &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; | | Paragraph | Text | Fenced Code Block ``` { &amp;ldquo;firstName&amp;rdquo;: &amp;ldquo;John&amp;rdquo;, &amp;ldquo;lastName&amp;rdquo;: &amp;ldquo;Smith&amp;rdquo;, &amp;ldquo;age&amp;rdquo;: 25 } ``` Footnote Here&amp;rsquo;s a sentence with a footnote.</description>
     </item>
   </channel>
 </rss>

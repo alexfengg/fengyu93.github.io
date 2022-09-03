@@ -12,9 +12,8 @@
       <link>https://fengyu93.github.io/post/4-convexstongly-convexconcavestrong-concave/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
       <guid>https://fengyu93.github.io/post/4-convexstongly-convexconcavestrong-concave/</guid>
-      <description>We list some properties and inequalities of convexity, strongly-convexity, concavity, strongly-concavity  Convexity. The following definitions are equivalent. We say $f:S\subset \mathbb{R}$ is convex if   $f(\theta x+ (1-\theta)y)\leq \theta f(x)+(1-\theta) f(y)$ for all $x,y\in S$ and $0\leq \theta \leq 1$
-  $f(y)-f(x)\geq \langle\nabla f(x),y-x\rangle$
- </description>
+      <description>We list some properties and inequalities of convexity, strongly-convexity, concavity, strongly-concavity Convexity. The following definitions are equivalent. We say $f:S\subset \mathbb{R}$ is convex if $f(\theta x+ (1-\theta)y)\leq \theta f(x)+(1-\theta) f(y)$ for all $x,y\in S$ and $0\leq \theta \leq 1$
+$f(y)-f(x)\geq \langle\nabla f(x),y-x\rangle$</description>
     </item>
   </channel>
 </rss>
